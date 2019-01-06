@@ -1,7 +1,5 @@
 def choose(n, k):
-    if k == 0 or n == k:
-        return 1
-    if k > n or k < 0:
+    if k > n or k < 0 or n < 0:
         return 0
     p = 1
     for i in range(min(k, n-k)):
