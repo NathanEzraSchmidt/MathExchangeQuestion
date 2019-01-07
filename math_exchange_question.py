@@ -16,7 +16,7 @@ def count_dist(a, v, z, r):
 
 def get_odds(v=[3, 2, 1, 0, 0, 3, 3, 1, 3, 0, 7, 1, 2], r=[3,2,2,0,0,0,0,0,0,0,0,0,0], c=0):
     """
-    v, r, and a are lists of length 13, whose positions corresponds to ranks (ace is position 0, two is position 1, etc.)
+    v, r, and a are lists of length 13, whose positions correspond to ranks (ace is position 0, two is position 1, etc.)
     and values correspond to number of occurences
     v is known portion of cards. So, if v[0] == n, then there are n aces in known portion of cards
     r is revealed cards. So, if r[0] == n, then n aces have been revealed
