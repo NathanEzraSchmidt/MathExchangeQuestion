@@ -24,7 +24,7 @@ def get_odds(v=[3, 2, 1, 0, 0, 3, 3, 1, 3, 0, 7, 1, 2], r=[3,2,2,0,0,0,0,0,0,0,0
     from the unknown portion. 
     c is a rank, should be >=0 and <= 12. The program returns the odds of c being the rank of the next card revealed
     sum(v) should be 26. All values in v and r should be <= 24, and all values a[i] should be <= r[i]
-    The programs enumerates all possible values of a, and for each of these calculates the odds of c being the rank of the next card revealed
+    The program enumerates all possible values of a, and for each of these calculates the odds of c being the rank of the next card revealed
     weighted by the odds of the particular value of a occuring. The return value is the sum of all of these odds.
     """
     a = [0 for i in range(13)]
